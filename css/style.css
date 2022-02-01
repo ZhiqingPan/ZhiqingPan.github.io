@@ -612,21 +612,23 @@ section{
     color:var(--main-color);
 }
 
+.contact-text{
+    text-transform: none;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#menu-bars{
+    position: fixed;
+    top:1rem; right: 1rem;
+    z-index: 10000;
+    background:var(--main-color);
+    color:#fff;
+    border-radius: .5rem;
+    padding:1rem 1.5rem;
+    font-size: 3rem;
+    cursor:pointer;
+    display: none;
+}
 
 
 /* media queries  */
@@ -644,11 +646,11 @@ section{
         display: initial;
     }
 
-    header{
+    #sideBar{
         left:-120%;
     }
 
-    header.active{
+    #sideBar.active{
         left:0%;
     }
 
@@ -665,7 +667,7 @@ section{
         font-size: 50%;
     }
 
-    header{
+    #sideBar{
         width:100%;
     }
 
@@ -673,8 +675,4 @@ section{
         padding-right: 0;
     }
 
-}
-
-.contact-text{
-    text-transform: none;
 }
