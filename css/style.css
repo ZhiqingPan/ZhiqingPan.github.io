@@ -469,9 +469,13 @@ section{
     z-index: 1;
 }
 
-.portfolio .box-container .box:hover .left-box img{
+/*.portfolio .box-container .box:hover .left-box img{
     height:75%;
     width:75%;
+}*/
+
+.portfolio .box-container .box .top{
+    padding: 0 1.5rem;
 }
 
 .portfolio .box-container .box .top h3{
@@ -481,6 +485,26 @@ section{
     color:#333;
     text-transform: uppercase;
     z-index: 5;
+}
+
+.portfolio .box-container .box .top .icons{
+    /*position: absolute;*/
+    float: right;
+    top:1rem;
+    right:1rem;
+}
+
+.portfolio .box-container .box .top .icons a{
+    /*display: block;*/
+    height:3rem;
+    width:3rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:#333;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    text-align: center;
+    /*margin-bottom: 1rem;*/
 }
 
 .portfolio .box-container .box .left-box .icons{
