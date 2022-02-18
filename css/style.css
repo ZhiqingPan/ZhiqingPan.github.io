@@ -397,10 +397,12 @@ section{
     font-size: 1.5rem;
     color:#666;
     margin: 0 3rem 0 2rem;
+
 }
 
 .experience .box-container .box .content ul li{
     line-height: 3rem;
+    text-transform: none;
 }
 
 .portfolio .box-container{
@@ -458,6 +460,11 @@ section{
 .portfolio .box-container .box .right-box ul li{
     line-height: 2.5rem;
     text-transform: none;
+    font-size: 1.5rem;
+}
+
+.portfolio .box-container .box .right-box ul li a{
+    text-decoration: none;
 }
 
 .portfolio .box-container .box .left-box img{
