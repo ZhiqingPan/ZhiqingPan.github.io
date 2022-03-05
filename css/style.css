@@ -345,7 +345,8 @@ section{
     border-left: .2rem solid var(--main-color);
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 2rem;    
+    padding-bottom: 2rem; 
+    width: 100%;   
 }
 
 .experience .box-container .box::before{
@@ -363,6 +364,7 @@ section{
     padding:1.5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
+
 }
 
 .experience .box-container .box .content span{
