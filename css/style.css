@@ -405,6 +405,7 @@ section{
 .experience .box-container .box .content ul li{
     line-height: 3rem;
     text-transform: none;
+    text-align: justify;
 }
 
 .portfolio .box-container{
