@@ -1,6 +1,6 @@
 .testswitch {
     position: relative;
-    float: left; 
+    float: right; 
     width: 90px;
     margin: 0;
     -webkit-user-select:none; 
